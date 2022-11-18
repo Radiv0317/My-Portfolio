@@ -1,0 +1,199 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: rgb(34, 34, 34);
+    color: white;
+  }
+  .nav-link {
+      font-size: 1.1em;
+      transition: .15s ease-in-out;
+      color: rgba(255, 255, 255, 0.644) !important;
+  } 
+  .nav-link:hover, .active {
+      transform: scale(1.1);
+      color: white !important;
+  }
+
+  #Home{
+    padding-top: 100px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    min-height: 100vh;
+  }
+  #Skills{
+    background-color: rgb(26, 25, 25);
+    padding-bottom: 50px;
+    color: white;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+  #project{
+    background-color: rgb(19, 19, 19);
+    padding-bottom: 100px;
+    color: white;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+ 
+  .github{
+    background-color: rgba(221, 221, 221, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .instagram{
+    margin-left: 30px;
+    background-color: rgba(221, 221, 221, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .stackoverflow{
+    margin-left: 30px;
+    background-color: rgba(221, 221, 221, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .instagram:hover{
+    border-radius: 10px;
+    background-color: #00000083;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .stackoverflow:hover{
+    border-radius: 10px;
+    background-color: #00000083;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .github:hover{
+    border-radius: 10px;
+    background-color: #00000083;
+    color: white;
+    padding-bottom: 20px;
+  }
+ .img-html h5{
+  color: white;
+ }
+ .img-css h5{
+  color: white;
+ }
+ .img-js h5{
+  color: white;
+ }
+ .image-bs h5{
+  color: white;
+ }
+ /* Skills */
+ .img-php h5{
+  color: white;
+ }
+ .skills-html{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-html:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ .skills-css{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-css:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ .skills-js{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-js:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ .skills-bs{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-bs:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ .skills-gaming{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-gaming:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ .skills-php{
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  padding-top: 20px;
+ }
+ .skills-php:hover{
+  border-radius: 10px;
+  background-color: #00000083;
+  color: white;
+  padding-bottom: 20px
+ }
+ /* Project */
+ #project .card{
+  background-color: rgb(19, 19, 19);
+ }
+  @media screen and (max-width: 769px){
+    /* .bg-transparent {
+        background: rgb(41, 28, 138) !important;
+        box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
+    } */
+    .nav {
+        display: block;
+    }
+    #Home{
+      min-height: 100vh;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+      #Home h1{
+        font-size: 30px;
+      }
+      #Home p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+}
